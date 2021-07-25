@@ -1,0 +1,28 @@
+{
+  "name": "family-chat",
+  "version": "1.0.0",
+  "description": "a social media app for friends and family",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoneandonlyzako/family-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoneandonlyzako/family-chat/issues"
+  },
+  "homepage": "https://github.com/theoneandonlyzako/family-chat#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
